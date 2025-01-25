@@ -2,6 +2,8 @@ package piscine
 
 import "fmt"
 
+
+// Main function, it is being called by its varints, each giving their own symbols
 func QuadCustom(x, y int, TopLeft, TopRight, BotLeft, BotRight, Hor, Ver rune) {
 	// Returns nothing, if any of the function arguments are negative or equals to 0
 	if x <= 0 || y <= 0 {
@@ -49,7 +51,6 @@ func QuadCustom(x, y int, TopLeft, TopRight, BotLeft, BotRight, Hor, Ver rune) {
 }
 
 // Variants of this function, each uses different symbols
-
 func QuadA(x, y int) {
 	QuadCustom(x, y, 'o', 'o', 'o', 'o', '-', '|')
 }

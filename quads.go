@@ -3,10 +3,12 @@ package piscine
 import "fmt"
 
 func QuadCustom(x, y int, TopLeft, TopRight, BotLeft, BotRight, Hor, Ver rune) {
+	// Returns nothing, if any of the function arguments are negative or equals to 0
 	if x <= 0 || y <= 0 {
 		return
 	}
 
+	// Prints top side, or just the corner
 	if x == 1 {
 		fmt.Println(string(TopLeft))
 	} else {
@@ -18,6 +20,7 @@ func QuadCustom(x, y int, TopLeft, TopRight, BotLeft, BotRight, Hor, Ver rune) {
 		fmt.Println()
 	}
 
+	// Prints left and right side, or only left side
 	for i := 0; i < y-2; i++ {
 		if x == 1 {
 			fmt.Println(string(Ver))
@@ -30,6 +33,7 @@ func QuadCustom(x, y int, TopLeft, TopRight, BotLeft, BotRight, Hor, Ver rune) {
 		}
 	}
 
+	// Prints bottom side, or just the corner
 	if y > 1 {
 		if x == 1 {
 			fmt.Println(string(BotLeft))
@@ -43,6 +47,8 @@ func QuadCustom(x, y int, TopLeft, TopRight, BotLeft, BotRight, Hor, Ver rune) {
 		}
 	}
 }
+
+// Variants of this function, each uses different symbols
 
 func QuadA(x, y int) {
 	QuadCustom(x, y, 'o', 'o', 'o', 'o', '-', '|')

@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	// Quad functions with all
+	// All the quad functions 
 
 	fmt.Println("QuadA:")
 	piscine.QuadA(5, 3)

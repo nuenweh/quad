@@ -18,8 +18,7 @@ func QuadCustom(x, y int, TopLeft, TopRight, BotLeft, BotRight, Hor, Ver rune) {
 		for i := 0; i < x-2; i++ {
 			fmt.Print(string(Hor))
 		}
-		fmt.Print(string(TopRight))
-		fmt.Println()
+		fmt.Println(string(TopRight))
 	}
 
 	// Prints left and right side, or only left side
@@ -44,8 +43,7 @@ func QuadCustom(x, y int, TopLeft, TopRight, BotLeft, BotRight, Hor, Ver rune) {
 			for i := 0; i < x-2; i++ {
 				fmt.Print(string(Hor))
 			}
-			fmt.Print(string(BotRight))
-			fmt.Println()
+			fmt.Println(string(BotRight))
 		}
 	}
 }

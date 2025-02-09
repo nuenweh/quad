@@ -1,7 +1,6 @@
-package piscine
+package quads
 
 import "fmt"
-
 
 // Main function, it is being called by its varints, each giving their own symbols
 func QuadCustom(x, y int, TopLeft, TopRight, BotLeft, BotRight, Hor, Ver rune) {

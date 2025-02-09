@@ -2,59 +2,60 @@ package main
 
 import (
 	"fmt"
-	"piscine"
+
+	"github.com/nuenweh/quad/quads"
 )
 
 func main() {
-	// All the quad functions 
+	// All the quad functions
 
 	fmt.Println("QuadA:")
-	piscine.QuadA(5, 3)
+	quads.QuadA(5, 3)
 	fmt.Println("")
-	piscine.QuadA(5, 1)
+	quads.QuadA(5, 1)
 	fmt.Println("")
-	piscine.QuadA(1, 1)
+	quads.QuadA(1, 1)
 	fmt.Println("")
-	piscine.QuadA(1, 5)
+	quads.QuadA(1, 5)
 	fmt.Println("")
 
 	fmt.Println("QuadB:")
-	piscine.QuadB(5, 3)
+	quads.QuadB(5, 3)
 	fmt.Println("")
-	piscine.QuadB(5, 1)
+	quads.QuadB(5, 1)
 	fmt.Println("")
-	piscine.QuadB(1, 1)
+	quads.QuadB(1, 1)
 	fmt.Println("")
-	piscine.QuadB(1, 5)
+	quads.QuadB(1, 5)
 	fmt.Println("")
 
 	fmt.Println("QuadC:")
-	piscine.QuadC(5, 3)
+	quads.QuadC(5, 3)
 	fmt.Println("")
-	piscine.QuadC(5, 1)
+	quads.QuadC(5, 1)
 	fmt.Println("")
-	piscine.QuadC(1, 1)
+	quads.QuadC(1, 1)
 	fmt.Println("")
-	piscine.QuadC(1, 5)
+	quads.QuadC(1, 5)
 	fmt.Println("")
 
 	fmt.Println("QuadD:")
-	piscine.QuadD(5, 3)
+	quads.QuadD(5, 3)
 	fmt.Println("")
-	piscine.QuadD(5, 1)
+	quads.QuadD(5, 1)
 	fmt.Println("")
-	piscine.QuadD(1, 1)
+	quads.QuadD(1, 1)
 	fmt.Println("")
-	piscine.QuadD(1, 5)
+	quads.QuadD(1, 5)
 	fmt.Println("")
 
 	fmt.Println("QuadE:")
-	piscine.QuadE(5, 3)
+	quads.QuadE(5, 3)
 	fmt.Println("")
-	piscine.QuadE(5, 1)
+	quads.QuadE(5, 1)
 	fmt.Println("")
-	piscine.QuadE(1, 1)
+	quads.QuadE(1, 1)
 	fmt.Println("")
-	piscine.QuadE(1, 5)
+	quads.QuadE(1, 5)
 
 }

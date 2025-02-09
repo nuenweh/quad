@@ -1,4 +1,4 @@
-package quads
+package quad
 
 import "fmt"
 
